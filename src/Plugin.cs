@@ -29,7 +29,7 @@ namespace AstolfoBeanScrap
             Utilities.FixMixerGroups(AstolfoBean.spawnPrefab);
             Items.RegisterScrap(AstolfoBean, 40, Levels.LevelTypes.All);
 
-            TerminalNode node = ScriptableObject.CreateInstance<TerminalNode>(); 
+            TerminalNode node = ScriptableObject.CreateInstance<TerminalNode>();
             node.clearPreviousText = true;
             node.displayText = "The Bean\n\n";
             Items.RegisterShopItem(AstolfoBean, null, null, node, 0);
